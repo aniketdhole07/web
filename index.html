@@ -1,0 +1,106 @@
+---
+layout: default
+title:
+description: Aniket Dhole
+featured_image:
+---
+
+<section class="intro">
+    <div class="wrap row">
+        <div class="col-lg-4 col-sm-12">
+            <img src="/images/about.jpg" class="about_img">
+        </div>
+
+        <div class="col-lg-8 col-sm-12 about">
+            <h3>Hi, I am Aniket.</h3>
+            </br>
+            <p class="about_text"> I am a undergrad student at Pimpri Chinchwad College of Engineering in Computer Engineering, working on Edge and Parallel Computing in Agriculture and Healthcare projects.</p>
+
+            <p> I have experience in IoT Devices and Robotics, where I explored areas such as Computer Networks, Hardware Interfacing, Navigation, Inverse Kinematics and Path Planning of Robots.</p>
+
+            <h6><a class="highlight_link" href="">My Resume</a></h6>
+
+        </div>
+    </div>
+</section>
+
+<section class="listing single" id="research">
+    <div class="wrap grey">
+        <h1 class="divider">Research</h1>
+        {% for project in site.research %}
+
+        <article class="listing-post2">
+<!--             <div class="listing-post__header">
+                <h3 class="listing-post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            </div> -->
+
+            {% if project.featured_image %}
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+ <!--                    <a href="{{ project.url | relative_url }}" class="listing-post__image" style="background-image: url({{ project.featured_image | relative_url }});"></a> -->
+
+                    <a class="listing-post__image" style="background-image: url({{ project.featured_image | relative_url }});"></a>
+                </div>
+
+                {% endif %}
+
+                <div class="listing-post__content col-lg-6 col-sm-12">
+                    <h6>{{ project.title }}</h6>
+                    <p class="no_margin">{{ project.author }}</p>
+                    <div class="proceeding">
+                        <p class="no_margin"><i>{{ project.conference }}</i></p>
+                        <p class="no_margin" id="award">{{ project.award }}</p>
+                    </div>
+                    
+                    <p class="excerpt">{{ project.excerpt }}</p>
+                    <span class="link">
+                        <h6><a class="highlight_link" href="{{ project.paper_url  | relative_url }}">{{ project.paper_text }}</a></h6>
+                        <h6><a class="highlight_link middle_link" href="{{ project.video_url  | relative_url }}">{{ project.video_text }}</a></h6>
+                        <h6><a class="highlight_link" href="{{ project.talk_url  | relative_url }}">{{ project.talk_text }}</a></h6>
+                    </span>
+                </div>
+            </div>
+
+        </article>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<section class="listing single" id="selected_projects">
+    <div class="wrap">
+        <h1>Projects</h1>
+        {% for post in paginator.posts %}
+        <article class="listing-post">
+            {% if post.featured_image %}
+            <a href="{{ post.url | relative_url }}" class="listing-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+            {% endif %}
+            <div class="listing-post__header">
+                <h6 class="listing-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h6>
+                <p class="subtitle">{{ post.excerpt }}</p>
+            </div>
+            <div class="listing-post__content">
+                <!-- <p>{{ post.excerpt }}</p> -->
+                <!-- <p><a href="{{ post.url | relative_url }}" class="button">Read More</a> -->
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
+{% if paginator.total_pages > 1 %}
+<section class="pagination">
+    {% if paginator.previous_page %}
+    <div class="pagination__prev">
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
+    </div>
+    {% endif %}
+    {% if paginator.next_page %}
+    <div class="pagination__next">
+        <a href="{{ paginator.next_page_path | relative_url }}" class="button button--large"><span>Older Projects</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    </div>
+    {% endif %}
+</section>
+{% endif %}
