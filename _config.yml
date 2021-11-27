@@ -2,7 +2,7 @@ site: Aniket Dhole
 
 url: "aniketdhole07.github.io"
 baseurl: /web
-
+destination: ./docs
 collections:
   pages:
     output: true
