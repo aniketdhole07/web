@@ -1,7 +1,7 @@
 site: Aniket Dhole
 
-url: "https://aniketdhole.in"
-baseurl: 
+url: "aniketdhole07.github.io"
+baseurl: /web
 
 collections:
   pages:
