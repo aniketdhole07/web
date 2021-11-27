@@ -12,7 +12,7 @@ featured_image:
 
 <div class="row">
 <div class="col-lg-7 col-sm-12">
-<img src="/web/images/about.jpg" class="about_img">
+<img src="/images/about.jpg" class="about_img">
 </div>
 
 <!-- <div class="col-lg-1 col-sm-0">
