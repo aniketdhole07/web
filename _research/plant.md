@@ -6,6 +6,6 @@ featured_image: '/images/plant1.png'
 author: Aniket Dhole, Mohit Gandhi, Shrishail Kumbhar, Harsh Singhal, Sonal Gore
 conference: Advances in Image and Data Processing using VLSI Design
 excerpt: 
-paper_text: [paper]
-paper_url: 
+paper_text: [paper (accepted)]
+paper_url: http://vesd.lnmiit.ac.in/VLSI-IDP/
 ---
