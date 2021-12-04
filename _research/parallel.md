@@ -6,9 +6,7 @@ featured_image: '/images/para1.png'
 author: Aniket Dhole, Mohit Gandhi, Shrishail Kumbhar
 conference: Springer- International conference on Emerging trends and Innovations in ICT (ICEI)	
 excerpt: 
-paper_text: [paper]
-paper_url: 
-video_text: [video]
-video_url: 
+paper_text: [paper (under review)]
+paper_url: https://www.icei-pict.org/author.html#callforpaper
 award: 
 ---
