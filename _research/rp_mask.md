@@ -6,9 +6,9 @@ featured_image: '/images/rp1.png'
 author: Aniket Dhole, Mohit Gandhi, Shrishail Kumbhar, Harsh Singhal, Sonal Gore
 conference: Elsevier - Journal of Systems and Software
 excerpt: 
-paper_text: [paper]
-paper_url: 
+paper_text: [paper (under review)]
+paper_url: https://www.journals.elsevier.com/journal-of-systems-and-software
 video_text: [video]
-video_url: 
+video_url: https://youtu.be/XaQzh3UL3gs
 award: 
 ---
