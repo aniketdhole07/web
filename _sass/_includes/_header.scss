@@ -11,6 +11,7 @@
 .header {
     padding-top: 30px;
     text-align: center;
+    position: sticky;
 
     @include mq(tabletp) {
         padding-top: 60px;
