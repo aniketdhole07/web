@@ -1,0 +1,48 @@
+---
+title: 'Cheer Up'
+date: Aug 2021
+date_display: "Aug 2021"
+featured_image: '/images/cheerup.jpg'
+excerpt: A Robot which dances and guides with your medice schedule to cheer you up all day.
+
+---
+
+
+## Purpose
+
+In childhood many of us have watched this show "SpongeBob Squarepants", got inspired from it to create a virtual assistant to get our daily schedule and even cheer us up in this difficult time of work. It will also guide users and patients to take their medicine on time. It was inspired from my previous project MediBox.
+
+
+## Technology Stack
+
+Instead of depending on phones for watching schedule we often get distracted, so using CheerUp we can avoid such distraction and work efficiently.
+
+The Bot is Made from:
+
+1. M5Stack Core 2 - It is a ESP32 based device which has peripheral devices like TOuch DIsplay Screen, Speaker, Microphone, LEDs, Accelerometer, SD Card Slot.
+
+2. Servo Motors: These are used to actuate the arms of the bot.
+
+3. 3D Printed Parts and Paints: All the printed parts are the main attraction of this device, you can paint if you want.
+
+4. SD Card: It is used to store the images and audio file of bot.
+
+## Features:
+
+1. The device can be used even without constant supply of USB power as it has inbuilt battery.
+
+2. You can modify the schedule as per your routine.
+
+3. The code is easy to modify, Arduino IDE can be used with simple C++ code.
+
+4. The device is modular and portable and can be used anywhere.
+
+5. You can configure the actions of the arm, currently there are 2 actions -Cheer and Dance.
+
+6. The device also sends Email Notifications using AWS SES when user has not followed the schedule. When event occurs user has to respond to by touching the screen which means he has followed the task.
+
+## Links
+
+[Hackster Blog](https://www.hackster.io/aniketdhole991/cheerup-medicine-reminder-56995c)
+
+[Github Repo](https://github.com/aniketdhole07/cheerup)
