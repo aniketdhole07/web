@@ -3,7 +3,7 @@ title: 'Health(AI)ness'
 date: September 2021
 date_display: "September 2021"
 featured_image: '/images/healthai.png'
-excerpt: HealtAIness helps users to exercise and train for health and fitness using 3D Spatial Camera for pose estimation.
+excerpt: HealtAIness helps users to exercise and train for health and fitness using 3D Spatial Camera for pose estimation using DepthAI Framework.
 
 ---
 
