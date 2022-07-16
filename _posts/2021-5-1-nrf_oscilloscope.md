@@ -3,7 +3,7 @@ title: 'nRF5340 Oscilloscope Band'
 date: May 2021
 date_display: "May 2021"
 featured_image: '/images/nrf.jpg'
-excerpt: Measure and Analyse Voltages on the Go with nRF5340
+excerpt: Measure and Analyse Voltages on the Go with nRF5340. A hand band to easy the process of measuring voltage and current of circuits.
 
 ---
 
