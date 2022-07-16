@@ -61,7 +61,7 @@ color_settings:
   # text_medium_color: '#6C7A89'
   text_medium_color: '#212529'
   # text_light_color: '#ABB7B7'
-  text_light_color: '#8f8f8f'
+  text_light_color: '#525151'
   accent_color: '#ee983d'
   border_color: '#f7d7b6'
   overlay_background_color: '#161B21'
