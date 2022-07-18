@@ -1,7 +1,7 @@
 ---
 title: 'Patent - IOT BASED PORTABLE HEALTH MONITORING SYSTEM USING EDGE COMPUTING'
 date: June 2022
-date_display: "November 2021 (Under Review)"
+date_display: "June 2022 "
 featured_image: '/images/rp1.png'
 author: Aniket Dhole, Mohit Gandhi, Shrishail Kumbhar, Harsh Singhal, Dr. Sonal Gore
 conference: India - Intellectual Property (Application ID- 202221028427)
