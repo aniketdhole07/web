@@ -1,7 +1,7 @@
 basic_settings:
   site_title: Aniket Dhole
   site_tagline: Let the adventure begin.
-  favicon_image: 
+  favicon_image: /images/me.jpg
 
 header_settings:
   avatar_image: /images/me.jpg
