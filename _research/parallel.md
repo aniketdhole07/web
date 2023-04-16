@@ -1,6 +1,6 @@
 ---
 title: 'Parallel and Edge Computing Techniques for Computer Vision Models on Embedded Devices'
-date: March 2020 
+date: March 2021 
 date_display: "November 2021 (Under Review)"
 featured_image: '/images/para1.png'
 author: Aniket Dhole, Mohit Gandhi, Shrishail Kumbhar
