@@ -1,6 +1,6 @@
 ---
 title: 'Radiomics for Parkinson’s Disease classification using Advanced Texture-based Biomarkers'
-date: January 2020
+date: January 2023
 date_display: "January 2022"
 featured_image: '/images/park.png'
 author: Sonal Gore, Aniket Dhole, Shrishail Kumbhar, Jayant Jagtap
