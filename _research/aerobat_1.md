@@ -1,6 +1,6 @@
 ---
 title: 'Hovering Control of Flapping Wings in Tandem with Multi-Rotors'
-date: March 2020
+date: March 2019
 date_display: "October 2023 (Accepted)"
 featured_image: '/images/aero2.png'
 author: Aniket Dhole,  Bibek Gupta, Adarsh Salagame, Alireza Ramezani et al.
